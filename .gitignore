@@ -1,0 +1,40 @@
+# Ignore the build directory
+/build/
+
+#Ignore the Drivers directory
+/Drivers/
+
+# Ignore CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Ignore compiled object files, libraries, and executables
+*.o
+*.obj
+*.so
+*.a
+*.out
+*.exe
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor configuration files
+.vscode/
+.idea/
+*.code-workspace
+
+# Ignore compiled binaries and map files
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
