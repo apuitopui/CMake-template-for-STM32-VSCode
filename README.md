@@ -10,7 +10,7 @@ The template contains template of CMakeLists.txt in `modules` directory and enab
 
 ## Project tree
 ```
-VENTA_TEMPLATE/
+{PROJECT_NAME}/
 ├── stm32cubemx/
 │   ├── CMakeLists.txt
 ├── Core/
@@ -30,7 +30,7 @@ VENTA_TEMPLATE/
 ├── CMakeLists.txt
 ```
 
-## VENTA_TEMPLATE/modules/CMakeLists.txt
+## {PROJECT_NAME}/modules/CMakeLists.txt
 CMakeLists.txt files for `modules` directory.
 ```
 ###############################################################################
@@ -65,7 +65,7 @@ target_link_libraries(modules PUBLIC
     stm32cubemx
 )
 ```
-## VENTA_TEMPLATE/CMakeLists.txt
+## {PROJECT_NAME}/CMakeLists.txt
 CMakeLists.txt files for the project directory.
 ```
 cmake_minimum_required(VERSION 3.22)
